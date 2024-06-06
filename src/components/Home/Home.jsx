@@ -96,16 +96,15 @@ const Home = () => {
         </section>
       </div>
 
-      <Link
-        to={"/Products"}
-        className=" mt-6 max-w-[1490px] h-auto mx-auto  shadow shadow-gray-400 rounded-t-lg "
-      >
-        <img
-          className="w-full h-auto rounded-t-lg "
-          src="https://i.ibb.co/L1fm7zQ/smartwatch-collections.webp"
-          alt=""
-        />
-      </Link>
+      <div className=" mt-6 max-w-[1490px] h-auto mx-auto  shadow shadow-gray-400 rounded-t-lg ">
+        <Link to={"/Products"}>
+          <img
+            className="w-full h-auto rounded-t-lg "
+            src="https://i.ibb.co/L1fm7zQ/smartwatch-collections.webp"
+            alt=""
+          />
+        </Link>
+      </div>
     </div>
   );
 };

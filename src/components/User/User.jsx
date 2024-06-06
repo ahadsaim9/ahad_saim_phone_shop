@@ -6,7 +6,7 @@ const User = ({ user }) => {
   return (
     <div className="border rounded-md p-4 flex flex-col gap-2">
       <h1 className="text-2xl font-bold text-red-700">User Id: {id}</h1>
-      <section className=" font-semibold text-slate-700 flex flex-col gap-1">
+      <section className=" text-wrap font-semibold text-slate-700 flex flex-col gap-1">
         <p>User Name: {name}</p>
         <p>Phone No: {phone}</p>
         <p>E-mail: {email}</p>

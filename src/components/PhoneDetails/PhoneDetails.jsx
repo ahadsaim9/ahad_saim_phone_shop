@@ -14,7 +14,7 @@ const PhoneDetails = () => {
   };
   return (
     <section>
-      <h1 className="text-blue-900 text-3xl text-center my-6 font-bold underline border-black ">
+      <h1 className="text-blue-900 md:text-3xl mt-20 text-center my-6 font-bold underline border-black ">
         Products: {slug}
       </h1>
       <div className="m-8  h-auto w-full md:w-1/3 mx-auto relative ">

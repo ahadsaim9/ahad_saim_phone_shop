@@ -11,7 +11,7 @@ const UserDetails = () => {
     navigate(-1);
   };
   return (
-    <div>
+    <div className="mt-20">
       <h1 className="text-4xl text-gray-800 drop-shadow-lg font-bold text-center my-5">
         User Details
       </h1>

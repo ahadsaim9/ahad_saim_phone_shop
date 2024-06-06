@@ -6,10 +6,10 @@ const Users = () => {
 
   return (
     <div>
-      <h1 className="text-blue-900 text-3xl text-center my-6 font-bold underline">
-        User: {users.length}{" "}
+      <h1 className="text-blue-900 text-3xl text-center my-6 font-bold underline mt-20">
+        User: {users.length}
       </h1>
-      <div className="grid md:grid-cols-3 gap-5 mx-4">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2 md:p-5 gap-8 max-w-[1500px] mx-auto">
         {users.map((user) => (
           <User user={user} key={user.id}></User>
         ))}

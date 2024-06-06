@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="px-2 mt-20 md:w-2/5 mx-auto text-nowrap h-[50vh] justify-center flex flex-col ">
-      <p className="text-3xl text-blue-950 italic text-center mb-5 font-bold ">
+    <div className="px-2 mt-20 md:w-2/5 mx-auto text-nowrap h-[50vh] justify-center flex flex-col md:text-center ">
+      <p className="text-3xl text-blue-950 italic text-center mb-5 font-bold  ">
         ASM STORE
       </p>
       <p className="md:text-2xl font-semibold">
